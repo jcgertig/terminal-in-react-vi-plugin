@@ -19,6 +19,31 @@ npm i -S terminal-in-react-vi-plugin
 yarn add terminal-in-react-vi-plugin
 ```
 
+# Usage
+The plugin requires a file system plugin to work. Currently `terminal-in-react-pseudo-file-system-plugin` is the only one available. You have
+to pass the name of the file system plugin as a config option.
+
+
+```jsx
+import ViPlugin from 'terminal-in-react-vi-plugin';
+import pseudoFileSystemPlugin from 'terminal-in-react-pseudo-file-system-plugin';
+const FileSystemPlugin = pseudoFileSystemPlugin();
+
+...
+<Terminal
+  plugins={[
+    FileSystemPlugin,
+    {
+      class: ViPlugin,
+      config: {
+        filesystem: FileSystemPlugin.displayName
+      }
+    }
+  ]}
+/>
+...
+```
+
 # Commands
 The commands it adds are:
 
