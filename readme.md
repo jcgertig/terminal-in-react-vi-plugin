@@ -9,6 +9,10 @@
 
 __Plugin to add a vi editor to terminal-in-react__
 
+<p align="center">
+  <img src="http://g.recordit.co/nsDKEGz8QS.gif" />
+</p>
+
 # Install
 
 ```bash
