@@ -1,4 +1,4 @@
-# Pseudo File System Plugin
+# Vi Plugin
 
 [![Downloads][npm-dm]][package-url]
 [![Downloads][npm-dt]][package-url]
@@ -7,7 +7,7 @@
 [![Dev Dependencies][dev-deps]][package-url]
 [![License][license]][package-url]
 
-__Plugin to add a pseudo file system to terminal-in-react__
+__Plugin to add a vi editor to terminal-in-react__
 
 # Install
 
